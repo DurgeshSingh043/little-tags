@@ -1,5 +1,6 @@
-import './App.scss';
 import Header from './components/molecules/header/header';
+
+import './App.scss';
 
 function App() {
   return (
