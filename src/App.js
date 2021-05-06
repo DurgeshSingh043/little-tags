@@ -3,9 +3,9 @@ import Header from './components/molecules/header/header';
 
 function App() {
   return (
-    <div className='App'>
+    <>
       <Header></Header>
-    </div>
+    </>
   );
 }
 
