@@ -1,14 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-<<<<<<< HEAD
-
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-=======
 import { BrowserRouter as Router } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { ToastProvider } from 'react-toast-notifications';
@@ -32,7 +23,6 @@ ReactDOM.render(
       </Provider>
     </Router>
     {/* </UserProvider> */}
->>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7
   </React.StrictMode>,
   document.getElementById('root'),
 );

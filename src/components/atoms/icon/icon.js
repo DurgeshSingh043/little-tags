@@ -1,6 +1,26 @@
-import user from '../../../assests/svg-icons/user.svg';
-import search from '../../../assests/svg-icons/search.svg';
-import checkout from '../../../assests/svg-icons/checkout.svg';
+import {
+  user,
+  search,
+  checkout,
+  heart,
+  edit,
+  plus,
+  minus,
+  facebookButton,
+  gmailButton,
+  or,
+  wishlist,
+  star,
+  starFilled,
+  facebook,
+  twitter,
+  instagram,
+  deleteIcon,
+  favoriteBlack,
+  checkoutFilled,
+  logo,
+  cancel,
+} from '../../../assests/svg-icons';
 
 import './icon.scss';
 
@@ -12,13 +32,53 @@ const getSvgIcon = (name) => {
       return search;
     case 'checkout':
       return checkout;
+    case 'heart':
+      return heart;
+    case 'wishlist':
+      return wishlist;
+    case 'edit':
+      return edit;
+    case 'plus':
+      return plus;
+    case 'minus':
+      return minus;
+    case 'facebook-button':
+      return facebookButton;
+    case 'gmail-button':
+      return gmailButton;
+    case 'or':
+      return or;
+    case 'star':
+      return star;
+    case 'star-filled':
+      return starFilled;
+    case 'facebook':
+      return facebook;
+    case 'twitter':
+      return twitter;
+    case 'instagram':
+      return instagram;
+    case 'loginFb':
+      return facebook;
+    case 'loginGmail':
+      return instagram;
+    case 'delete':
+      return deleteIcon;
+    case 'heart-filled':
+      return favoriteBlack;
+    case 'checkout-filled':
+      return checkoutFilled;
+    case 'logo':
+      return logo;
+    case 'cancel':
+      return cancel;
     default:
       return null;
   }
 };
 
-const Icon = ({ name = 'user' }) => {
-  return <img className='icon' src={getSvgIcon(name)}></img>;
+const Icon = ({ name = 'user', className, ...other }) => {
+  return <img className={`icon ${className}`} src={getSvgIcon(name)} {...other}></img>;
 };
 
 export default Icon;
