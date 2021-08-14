@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-@mixin flex-center {
-  display: flex;
-=======
 @mixin flex-center($direction: row) {
   display: flex;
   flex-direction: $direction;
->>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7
   justify-content: center;
   align-items: center;
 }
