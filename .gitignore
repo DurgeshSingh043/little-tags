@@ -22,3 +22,7 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 .firebase/hosting.YnVpbGQ.cache
+<<<<<<< HEAD
+.env
+=======
+>>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7

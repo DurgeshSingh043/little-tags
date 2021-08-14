@@ -3,6 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+<<<<<<< HEAD
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+=======
     "@sendgrid/mail": "^7.4.4",
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -24,12 +33,16 @@
     "redux-logger": "^3.0.6",
     "redux-persist": "^6.0.0",
     "redux-thunk": "^2.3.0",
+>>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7
     "web-vitals": "^1.1.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+<<<<<<< HEAD
+=======
     "deploy": "react-scripts build && firebase deploy",
+>>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

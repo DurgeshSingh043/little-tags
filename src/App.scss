@@ -1,3 +1,32 @@
+<<<<<<< HEAD
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+h1 {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-family: Roboto, Arial, sans-serif;
+}
+
+nav {
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+=======
 @import './styles';
 
 * {
@@ -64,4 +93,5 @@ h6 {
 
 p {
   margin: 0;
+>>>>>>> a3d596608d3dd3fb79ae8212c67581a3ad1238b7
 }
